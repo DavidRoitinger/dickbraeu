@@ -1,0 +1,13 @@
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+div.titleBar {
+  margin: 0px 32px 0px 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+

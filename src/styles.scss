@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    min-height: 90vh;
+    background-color: chocolate;
+}
+
+.main_content {
+    width: 60%;
+    background-color: blanchedalmond;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.side_content {
+    width: 20%;
+    background-color: aqua;
+    padding: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .side_content{
+        width: 0%;
+        padding: 0px;
+    }
+
+    .main_content{
+        width: 100%;
+    }
+}
