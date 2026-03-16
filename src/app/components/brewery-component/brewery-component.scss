@@ -1,0 +1,13 @@
+.flex_row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and ( max-width: 400px) {
+    .flex_row{
+        flex-wrap: wrap;
+    }
+}

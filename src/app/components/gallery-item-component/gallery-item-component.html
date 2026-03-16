@@ -1,8 +1,10 @@
 <div class="gallery-item">
         <a target="_blank" [href]="path()">
-            <img [src]="path()" alt="logo" width="600" height="400">
+            <img [src]="path()" alt="foto" width="600" height="400">
         </a>
-        <div class="desc">
-            <span>{{description()}}</span>
-        </div>
+        @if (description().length > 0) {
+            <div class="desc">
+                <span>{{description()}}</span>
+            </div>
+        }
 </div>

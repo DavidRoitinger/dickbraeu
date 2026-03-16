@@ -1,11 +1,11 @@
-<nav class="navbar navbar-expand-md">
+<nav class="navbar sticky-top navbar-expand-md header">
             <div class="container-fluid">
-                <a class="navbar-brand logo" href="index.html">Dickbräu</a>
+                <a class="navbar-brand logo" href="#/home">Dickbräu</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
+                <div class ="offcanvas offcanvas-end offscreen_color" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header header">
                         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Dickbräu</h5>
                         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
@@ -21,7 +21,7 @@
                                 <button class="nav-link active title" (click)="navigateTo('zutaten')">Zutaten</button>
                             </li>
                             <li class="nav-item">
-                                <button class="nav-link active title" (click)="navigateTo('braeuerei')">Bräuerei</button>
+                                <button class="nav-link active title" (click)="navigateTo('ausstattung')">Ausstattung</button>
                             </li>
                             <li class="nav-item">
                                 <button class="nav-link active title" (click)="navigateTo('bier')">Bier</button>
