@@ -17,7 +17,6 @@
 
     <div class="collapse" id="hopfen">
         <div class="gallery">
-            <hr>
             <app-gallery-item-component path="hopfen/Hopfen.jpg" description="Handvoll Hopfen"/>
             <app-gallery-item-component path="hopfen/Hopfen_Ast.jpg" description="Hopfen am Ast"/>
             <app-gallery-item-component path="hopfen/Hopfen_Einzeln.jpg" description="Hopfen"/>
@@ -46,11 +45,10 @@
 
     <div class="collapse" id="ausstattung">
         <div class="gallery">
-            <hr>
-            <app-gallery-item-component path="kessel/Kessel_alt_1.jpg" description="Alte Kessel"/>
-            <app-gallery-item-component path="kessel/Kessel_alt_2.jpg" description="Alte Kessel"/>
-            <app-gallery-item-component path="kessel/Kessel_alt_1.jpg" description="Alte Kessel"/>
-            <app-gallery-item-component path="kessel/Kessel_alt_3.jpg" description="Alte Kessel"/>
+            <app-gallery-item-component path="kessel/Kessel_alt_1.jpg" description="Alter Kessel"/>
+            <app-gallery-item-component path="kessel/Kessel_alt_2.jpg" description="Alter Kessel"/>
+            <app-gallery-item-component path="kessel/Kessel_alt_1.jpg" description="Alter Kessel"/>
+            <app-gallery-item-component path="kessel/Kessel_alt_3.jpg" description="Alter Kessel"/>
             <app-gallery-item-component path="kessel/Kessel_neu_1.jpg" description="Neuer Kessel"/>
             <app-gallery-item-component path="kessel/Kessel_neu_2.jpg" description="Neuer Kessel"/>
             <app-gallery-item-component path="kessel/Kessel_neu_3.jpg" description="Neuer Kessel"/>
@@ -63,7 +61,7 @@
             <app-gallery-item-component path="kessel/Kessel_neu_10.jpg" description="Neuer Kessel"/>
             <app-gallery-item-component path="kessel/Kessel_neu_11.jpg" description="Neuer Kessel"/>
             <app-gallery-item-component path="kessel/Kessel_neu_12.jpg" description="Neuer Kessel"/>
-            <app-gallery-item-component path="kessel/Kessel_laeuterbottich.jpg" description="Edelstallläuterbottich"/>
+            <app-gallery-item-component path="kessel/Kessel_laeuterbottich.jpg" description="Edelstahlläuterbottich"/>
             
         </div>
     </div>
@@ -79,22 +77,49 @@
 
     <div class="collapse" id="schaum">
         <div class="gallery">
-            <hr>
-            <app-gallery-item-component path="brauerei/Brauerei_Schaum_1.jpg" description=""/>
-            <app-gallery-item-component path="brauerei/Brauerei_Schaum_2.jpg" description=""/>
-            <app-gallery-item-component path="brauerei/Brauerei_Schaum_3.jpg" description=""/>
-            <app-gallery-item-component path="brauerei/Brauerei_Schaum_4.jpg" description=""/>
-            <app-gallery-item-component path="brauerei/Brauerei_Schaum_5.jpg" description=""/>
-            <app-gallery-item-component path="brauerei/Brauerei_Schaum_6.jpg" description=""/>
-            <app-gallery-item-component path="brauerei/Brauerei_Schaum_7.jpg" description=""/>
-            <app-gallery-item-component path="brauerei/Brauerei_Schaum_8.jpg" description=""/>
-            <app-gallery-item-component path="brauerei/Brauerei_Schaum_9.jpg" description=""/>
-            <app-gallery-item-component path="brauerei/Brauerei_Schaum_10.jpg" description=""/>
-            <app-gallery-item-component path="brauerei/Brauerei_Schaum_11.jpg" description=""/>
-            <app-gallery-item-component path="brauerei/Brauerei_Schaum_12.jpg" description=""/>
-            <app-gallery-item-component path="brauerei/Brauerei_Schaum_13.jpg" description=""/>
-            <app-gallery-item-component path="brauerei/Brauerei_Schaum_14.jpg" description=""/>
+            <app-gallery-item-component path="brauerei/Brauerei_Schaum_1.jpg" description="Bierschaum"/>
+            <app-gallery-item-component path="brauerei/Brauerei_Schaum_2.jpg" description="Bierschaum"/>
+            <app-gallery-item-component path="brauerei/Brauerei_Schaum_3.jpg" description="Bierschaum"/>
+            <app-gallery-item-component path="brauerei/Brauerei_Schaum_4.jpg" description="Bierschaum"/>
+            <app-gallery-item-component path="brauerei/Brauerei_Schaum_5.jpg" description="Bierschaum"/>
+            <app-gallery-item-component path="brauerei/Brauerei_Schaum_6.jpg" description="Bierschaum"/>
+            <app-gallery-item-component path="brauerei/Brauerei_Schaum_7.jpg" description="Bierschaum"/>
+            <app-gallery-item-component path="brauerei/Brauerei_Schaum_8.jpg" description="Bierschaum"/>
+            <app-gallery-item-component path="brauerei/Brauerei_Schaum_9.jpg" description="Bierschaum"/>
+            <app-gallery-item-component path="brauerei/Brauerei_Schaum_10.jpg" description="Bierschaum"/>
+            <app-gallery-item-component path="brauerei/Brauerei_Schaum_11.jpg" description="Bierschaum"/>
+            <app-gallery-item-component path="brauerei/Brauerei_Schaum_12.jpg" description="Bierschaum"/>
+            <app-gallery-item-component path="brauerei/Brauerei_Schaum_13.jpg" description="Bierschaum"/>
+            <app-gallery-item-component path="brauerei/Brauerei_Schaum_14.jpg" description="Bierschaum"/>
             
+        </div>
+    </div>
+
+    <hr>
+    <div class="titleBar">
+        <h2>Abgefülltes Bier</h2>
+        <button class="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#abgefuellt">
+            <i class="bi bi-chevron-down"></i>
+        </button>
+    </div>
+
+    <div class="collapse" id="abgefuellt">
+        <div class="gallery">
+            <app-gallery-item-component path="bier/Bier_Fass_1.jpg" description="Bier abgefüllt in Fässer"/>
+            <app-gallery-item-component path="bier/Bier_Fass_2.jpg" description="Bier abgefüllt in Fässer"/>
+            <app-gallery-item-component path="bier/Bier_Fass_3.jpg" description="Bier abgefüllt in Fässer"/>
+            <app-gallery-item-component path="bier/Bier_Fass_4.jpg" description="Bier abgefüllt in Fässer"/>
+            <app-gallery-item-component path="bier/Bier_Fass_5.jpg" description="Bier abgefüllt in Fässer"/>
+            <app-gallery-item-component path="bier/Bier_Fass_6.jpg" description="Bier abgefüllt in Fässer"/>
+            <app-gallery-item-component path="bier/Bier_Fass_7.jpg" description="Fässer beim Bier abgefüllten"/>
+            <app-gallery-item-component path="bier/Bier_Fass_8.jpg" description="Fässer beim Bier abgefüllten"/>
+            <app-gallery-item-component path="bier/Bier_Flasche_1.jpg" description="Flaschen beim Bier abgefüllten"/>
+            <app-gallery-item-component path="bier/Bier_Flasche_2.jpg" description="Bier abgefüllt in Flaschen"/>
+            <app-gallery-item-component path="bier/Bier_Flasche_3.jpg" description="Bier abgefüllt in Flaschen"/>
+            <app-gallery-item-component path="bier/Bier_Flasche_4.jpg" description="Bier abgefüllt in Flaschen + Kübelvoll Bier"/>
+            <app-gallery-item-component path="bier/Bier_Glas_1.jpg" description="Bier im Glas"/>
+            <app-gallery-item-component path="bier/Bier_Glas_2.jpg" description="Bier im Glas"/>
+            <app-gallery-item-component path="bier/Bier_Glas_3.jpg" description="Bier in Gläser"/>
         </div>
     </div>
 
